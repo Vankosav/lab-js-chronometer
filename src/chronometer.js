@@ -17,9 +17,8 @@ class Chronometer {
       // Call printTimeCallback every 1000 milliseconds
       if (printTimeCallback) printTimeCallback();
       this.currentTime++;
-      console.log(this.currentTime)
     }, 1000);
-    // Handle case where current time is negative
+    
   }
 
   getMinutes() {
